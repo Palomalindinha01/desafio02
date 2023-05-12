@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Kavoon', cursive;
+    
+}
+.desafio{
+    background-color: #FFFFFF;;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    
+}
+.desafio00 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.desafio00 h1{
+    width: 460px;
+    text-align: center;
+    line-height: 64px ;
+
+}
+.desafio00 button{
+    width: 354px;
+    height: 77px;
+    background-color: #D48B5C;
+    border-radius: 50px;
+    font-family: 'Kavoon', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.desafio00 button:hover{
+    background-color: aqua;
+}
